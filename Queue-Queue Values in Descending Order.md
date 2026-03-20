@@ -22,7 +22,21 @@ To write a Python program to:
 7. Print the updated list.
 
 ## 🧪 Program: 
+```q = []
+n = int(input())
+for i in range(n):
+    val = int(input())
+    q.append(val)
+
+q.pop(0)  
+q.pop(0)  
+
+q.sort(reverse=True)
+print(*q)
+```
 
 ### Output:
+<img width="641" height="528" alt="image" src="https://github.com/user-attachments/assets/a9e6f777-3833-43aa-9f60-aa0130e5d290" />
 
 ## Result:
+Thus, the Python program simulates a queue using a list is executed successfully.
